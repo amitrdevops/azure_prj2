@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "amitradf"
+		},
+		"ls_cust_connectionString": {
+			"value": ""
+		},
+		"ls_t_customer_password": {
+			"value": ""
+		},
+		"ls_t_txn_password": {
+			"value": ""
+		},
+		"ls_txn_connectionString": {
+			"value": ""
+		},
+		"ls_t_customer_properties_typeProperties_server": {
+			"value": "amitrsqlsrvr.database.windows.net"
+		},
+		"ls_t_customer_properties_typeProperties_database": {
+			"value": "db01"
+		},
+		"ls_t_customer_properties_typeProperties_userName": {
+			"value": "amitrazureuser"
+		},
+		"ls_t_txn_properties_typeProperties_server": {
+			"value": "amitrsqlsrvr.database.windows.net"
+		},
+		"ls_t_txn_properties_typeProperties_database": {
+			"value": "db01"
+		},
+		"ls_t_txn_properties_typeProperties_userName": {
+			"value": "amitrazureuser"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
