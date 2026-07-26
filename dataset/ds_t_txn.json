@@ -1,0 +1,45 @@
+{
+	"name": "ds_t_txn",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_t_txn",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "transaction_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "customer_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "txn_date",
+				"type": "date"
+			},
+			{
+				"name": "txn_type",
+				"type": "varchar"
+			},
+			{
+				"name": "amount",
+				"type": "decimal",
+				"precision": 10,
+				"scale": 2
+			},
+			{
+				"name": "description",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "TXN"
+		}
+	}
+}
